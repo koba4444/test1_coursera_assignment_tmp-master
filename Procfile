@@ -1,1 +1,1 @@
-worker: python manage.py runserver
+worker: web: gunicorn grader.wsgi
