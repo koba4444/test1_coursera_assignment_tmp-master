@@ -8,10 +8,11 @@ def echo(request):
 
 
 def filters(request):
-    return render(request, 'filters.html', context={
+    return render(request, 'filters1.html', context={
         'a': request.GET.get('a', 1),
         'b': request.GET.get('b', 1)
     })
+
 
 
 def extend(request):
